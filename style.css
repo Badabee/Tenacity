@@ -3,11 +3,10 @@
     padding: 0;
     margin: 0;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 .mainone {
-    background-image: url("/images/desktop/image-header.jpg");
+    background-image: url("/images/desktop/image-header.jpG");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -83,9 +82,119 @@ header a:hover{
     padding-top: 7%;
 }
 
+/*End of Section One*/
 
+.project{
+    width: 100vw;
+    margin: auto;
+    height:max-content;
+    grid-template-rows: 28em 28em 28em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+.project div:nth-child(1){
+    background-color: #fffbf8;
+}
 
+.project1a, .project4a{
+    width: 80%;
+    text-align: left;
+    margin: 10% auto;
+    height: 16em;
+}
+
+.project1a h1, .project4a h1 {
+    font-weight: 800;
+    font-size: 43px;
+}
+
+.project1a p, .project4a p {
+    font-size: 20px;
+    padding: 15px 0px;
+}
+
+.project1a a, .project4a a {
+    font-weight: 800;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 10px solid hsl(7, 99%, 70%);
+    border-radius: 5px;
+}
+
+.project div:nth-child(2){
+    background: url(images/desktop/image-transform.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project div:nth-child(3){
+    background: url(images/desktop/image-stand-out.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project div:nth-child(4){
+    background-color: #fffbf8;
+}
+
+.project div:nth-child(5){
+    background: url(images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project div:nth-child(6){
+    background: url(images/desktop/image-photography.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project5, .project6{
+    text-align: center;
+    padding-top: 310px;
+}
+
+.project5 h3, .project6 h3 {
+    font-weight: 800;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+/*End of Section Two*/
+.mainthree {
+    background-color: #fffbf8;
+}
+.client{
+    text-align: center;
+    padding: 120px 0 20px 0;
+}
+
+.testimonials {
+    width: 80vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid red;
+    padding: 3rem;
+}
+
+.clients {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.picx {
+    border-radius: 50%;
+    height: 6em;
+    width: 6em;
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
