@@ -246,14 +246,37 @@ header a:hover{
 /*End of Section Four*/
 
 .mainfive {
-    background-color: hsl(168, 34%, 41%);
+    background-color: #90d4c5;
     width: 100vw;
     margin: auto;
     height: 60vh;
+    text-align: center;
 }
 
+.mainfive h2 {
+    color: #2e7565;
+    font-size: 30px;
+    padding: 60px;
+}
+
+.mainfive ul li {
+    display: inline;
+    padding: 0 20px; 
+}
 
 /*End of Section Five*/
+
+@media only screen and (max-width: 600px) {
+
+    .mainone {
+        background-image: url("/images/mobile/image-header.jpg");
+    }
+
+    #logo {
+        
+    }
+
+}
 
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
