@@ -167,10 +167,12 @@ header a:hover{
 /*End of Section Two*/
 .mainthree {
     background-color: #fffbf8;
+    padding-bottom: 80px;
 }
+
 .client{
     text-align: center;
-    padding: 120px 0 20px 0;
+    padding: 100px 0 20px 0;
 }
 
 .testimonials {
@@ -178,7 +180,7 @@ header a:hover{
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 2px solid red;
+    grid-gap: 10px;
     padding: 3rem;
 }
 
@@ -196,6 +198,62 @@ header a:hover{
     width: 6em;
 }
 
+.clients h2{
+    font-size: 18px;
+    font-weight: 60;
+    padding: 25px;
+}
+
+
+/*End of Section Three*/
+
+.photos {
+    width: 100vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25em;
+}
+
+.photos div:nth-child(1){
+    background: url(images/desktop/image-gallery-milkbottles.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photos div:nth-child(2){
+    background: url(images/desktop/image-gallery-orange.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photos div:nth-child(3){
+    background: url(images/desktop/image-gallery-cone.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photos div:nth-child(4){
+    background: url(images/desktop/image-gallery-sugarcubes.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*End of Section Four*/
+
+.mainfive {
+    background-color: hsl(168, 34%, 41%);
+    width: 100vw;
+    margin: auto;
+    height: 60vh;
+}
+
+
+/*End of Section Five*/
 
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
