@@ -62,6 +62,16 @@ header a:hover{
     text-decoration: none;
 }
 
+nav #icon {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px; 
+    cursor: pointer;
+    display: none;
+ }
+
 /*End of header*/
 
 .arrow {
@@ -272,10 +282,29 @@ header a:hover{
         background-image: url("/images/mobile/image-header.jpg");
     }
 
-    #logo {
-        
-    }
+    nav #icon {
+        display: block;
+     }
 
+     nav ul {
+         position: fixed;
+         width: 90vw;
+         margin: 0 5%;
+         height: 60vh;
+         top: 80px;
+         background: #2f3640;
+         left: 0;
+         line-height: 70px;
+     }
+
+     nav li {
+        display: block;
+        text-align: center;
+     }
+
+     .create {
+         
+     }
 }
 
 .attribution { font-size: 11px; text-align: center; }
