@@ -303,6 +303,49 @@ nav #icon {
      }
 
      .create {
+
+     }
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+
+
+
+
+    /*End of Section Five*/
+
+@media only screen and (max-width: 600px) {
+
+    .mainone {
+        background-image: url("/images/mobile/image-header.jpg");
+    }
+
+    nav #icon {
+        display: block;
+     }
+
+     nav ul {
+         position: fixed;
+         width: 90vw;
+         margin: 0 5%;
+         height: 60vh;
+         top: 80px;
+         background: #2f3640;
+         left: 0;
+         line-height: 70px;
+     }
+
+     nav li {
+        display: block;
+        text-align: center;
+     }
+
+     .create {
          
      }
 }
