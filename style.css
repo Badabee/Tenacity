@@ -6,7 +6,7 @@
 }
 
 .mainone {
-    background-image: url("/images/desktop/image-headers.jpg");
+    background-image: url("/images/desktop/image-gallery-orange.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -279,7 +279,7 @@ nav #icon {
 @media only screen and (max-width: 600px) {
 
     .mainone {
-        background-image: url("/images/mobile/image-headers.jpg");
+        background-image: url("/images/mobile/image-gallery-orange.jpg");
     }
 
     nav #icon {
