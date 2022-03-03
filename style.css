@@ -20,12 +20,12 @@ header {
     padding-top: 2%;
 }
 
-header ul {
+nav ul {
     margin: 0px;
     padding: 0px;
  }
   
- header li {
+ nav li {
      list-style: none;
      display: inline;
      padding: 0 20px 0 20px;
@@ -286,58 +286,20 @@ nav #icon {
         display: block;
      }
 
-     nav ul {
-         position: fixed;
-         width: 90vw;
-         margin: 0 5%;
-         height: 60vh;
-         top: 80px;
-         background: #2f3640;
-         left: 0;
-         line-height: 70px;
-     }
-
-     nav li {
-        display: block;
-        text-align: center;
-     }
-
-     .create {
-
-     }
-}
-
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-
-
-
-
-
-
-
-
-    /*End of Section Five*/
-
-@media only screen and (max-width: 600px) {
-
-    .mainone {
-        background-image: url("/images/mobile/image-header.jpg");
+     header #logo{
+        padding-top: 4%;
     }
 
-    nav #icon {
-        display: block;
-     }
-
      nav ul {
          position: fixed;
-         width: 90vw;
-         margin: 0 5%;
-         height: 60vh;
+         width: 80vw;
+         margin: 0 10%;
+         height: 50vh;
          top: 80px;
          background: #2f3640;
          left: 0;
          line-height: 70px;
+         display: none;
      }
 
      nav li {
@@ -346,9 +308,80 @@ nav #icon {
      }
 
      .create {
-         
+        font-weight: 600;
+        font-size: 60px;
+        margin-top: 4%;
      }
+
+     .project{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .project1a, .project4a{
+        text-align: center;
+    }
+
+    .project1a h1, .project4a h1 {
+        font-size: 30px;
+    }
+    
+    .project1a p, .project4a p {
+        font-size: 18px;
+        padding: 15px 0px;
+    }
+    
+    .project1a a, .project4a a {
+        font-weight: 800;
+        font-size: 25px;
+    }
+
+    .project5, .project6{
+        text-align: center;
+        padding-top: 300px;
+        padding-bottom: 50px;
+    }
+    
+    .project5 h3, .project6 h3 {
+        font-weight: 800;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .testimonials {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 3rem;
+    }
+
+    .clients {
+        padding-bottom: 60px;
+    }
+
+    .photos {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 25em 25em;
+    }
+
+    .mainthree {
+        padding-bottom: 20px;
+    }
+
+    .mainfive {
+        height: 30vh;
+    }
+
+    .mainfive h2 {
+        font-size: 30px;
+        padding: 40px;
+    }
+    
+    .mainfive ul li {
+        display: inline;
+        padding: 0 8px; 
+    }
 }
 
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    
